@@ -1,0 +1,108 @@
+/* fonts */
+
+@font-face {
+    font-family: 'Geist Standard';
+    src: url('../fonts/Geist-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Geist Bold';
+    src: url('../fonts/Geist-Bold.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Geist Black';
+    src: url('../fonts/Geist-Black.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'New York';
+    src: url('../fonts/NewYork.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/* end of fonts */
+
+/* custom */
+
+xh {
+    font-family: 'Geist Black', sans-serif;
+    font-size: 40px;
+    color: #cdcdcd;
+    text-align: center;
+    display: block;
+}
+
+subh {
+    font-family: 'Geist Standard', sans-serif;
+    font-size: 20px;
+    color: #cdcdcd;
+    text-align: center;
+    display: block;
+}
+
+serif {
+    font-family: 'New York', serif;
+}
+
+cp {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%;
+}
+
+tiny {
+    font-family: 'Geist Standard', sans-serif;
+    font-size: 12px;
+    color: #cdcdcdab;
+}
+
+/* end of custom */
+
+/* static */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Geist Black', sans-serif;
+    color: #cdcdcd;
+}
+
+body {
+    background-color: #1c2624;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    font-family: 'Geist Standard', sans-serif;
+    color: #cdcdcd;
+}
+
+/* end of static */
+
+/* interactive */
+
+input {
+    font-family: 'Geist Standard', sans-serif;
+    font-size: 15px;
+    color: #cdcdcd;
+    background-color: #263634;
+    border: none;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #1bbeab;
+}
