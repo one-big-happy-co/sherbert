@@ -62,6 +62,22 @@ tiny {
     color: #cdcdcdab;
 }
 
+.footer-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.footer-bar h3, .footer-bar p {
+    margin: 0;
+    padding: 0 8px;
+    font-size: 1.1em;
+}
+
 /* end of custom */
 
 /* static */
