@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    background-color: #1c2624;
+    background-color: #202730;
     padding-top: 35px;
     padding-left: 20px;
     padding-right: 20px;
@@ -107,7 +107,7 @@ input {
     font-family: 'Geist Standard', sans-serif;
     font-size: 15px;
     color: #cdcdcd;
-    background-color: #263634;
+    background-color: #384755;
     border: none;
     border-radius: 8px;
     padding-top: 10px;
@@ -120,5 +120,5 @@ input {
 
 input:focus {
     outline: none;
-    border: 2px solid #1bbeab;
+    border: 2px solid #5CCEFF;
 }
